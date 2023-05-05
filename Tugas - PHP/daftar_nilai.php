@@ -33,7 +33,13 @@
                 <td><?php echo $value["kelas"] ?></td>
                 <td><?php echo $value["alamat"] ?></td>
                 <td><?php echo $value["tanggal_lahir"] ?></td>
-                <td><?php echo $value["umur"] ?></td>
+                <td><?php 
+                    $lahir =new DateTime($value["tanggal_lahir"]);
+                    $today = new DateTime();
+                    $umur = $today->diff($lahir);
+                    echo $umur->y;echo " Tahun";
+                    ?>
+                </td>
                 <td><?php echo $value["nilai"] ?></td>
                 <td>
                     <?php
