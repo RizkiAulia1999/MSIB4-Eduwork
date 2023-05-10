@@ -35,6 +35,8 @@ $query = mysqli_query($conn, "SELECT * FROM penerbit");
         </div>
     </div>
     </nav>
+    <br>
+    <a class="btn btn-primary" href="add.php">Tambah Penerbit</a>
 
     <table class="table table-striped mt-5" align="center" style="width: 900px;">
         <tr>
