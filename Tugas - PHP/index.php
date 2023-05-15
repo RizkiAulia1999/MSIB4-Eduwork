@@ -14,32 +14,33 @@ $query = mysqli_query($conn, "SELECT * FROM penerbit");
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Perpus</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="index.php">Penerbit</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Katalog</a>
-            </li>
-        </ul>
+    <center>
+    <div class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Perpus</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="index.php">Penerbit</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Katalog</a>
+                </li>
+            </ul>
+            </div>
         </div>
     </div>
-    </nav>
-    <br>
-    <a class="btn btn-primary" href="add.php">Tambah Penerbit</a>
 
-    <table class="table table-striped mt-5" align="center" style="width: 900px;">
-        <tr>
+    <table class="table table-hover mt-5" style="width: 900px;">
+        <tr  class="bg-transparent">
+            <td colspan="7">
+                <a class="btn btn-primary m-3 align-items-centeralign-items-center" href="add.php">Tambah Penerbit</a>
+            </td>
+        </tr>
+        <tr class="bg-light">
             <th>No</th>
             <th>id</th>
             <th>nama</th>
@@ -61,13 +62,14 @@ $query = mysqli_query($conn, "SELECT * FROM penerbit");
             <td><?php echo $value["telp"]; ?></td>
             <td><?php echo $value["alamat"]; ?></td>
             <td>
-                <button class="btn btn-primary">Edit</button>
-                <button class="btn btn-danger">Delete</button>
+                <a class="btn btn-warning" href='edit.php?id_penerbit=<?php echo $value["id_penerbit"]?>'>Edit</a> 
+                <a class="btn btn-danger" href='proses_delete.php?id_penerbit=<?php echo $value["id_penerbit"]?>'>Delete</a>   
             </td>
         </tr>
           <?php  
           $no++; }?>
           <?php } ?>
     </table>
+    </center>
 </body>
 </html>
