@@ -32,10 +32,6 @@
                 </td>
             </tr>
             <tr>
-                <td>ID</td>
-                <td><input type="text" name="id_penerbit" value="<?php echo $id_penerbit ?>"></td>
-            </tr>
-            <tr>
                 <td>Nama Penerbit</td>
                 <td><input type="text" name="nama_penerbit" value="<?php echo $nama_penerbit ?>"></td>
             </tr>
