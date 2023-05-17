@@ -5,6 +5,7 @@
     $penerbit = mysqli_query($conn, "SELECT * FROM penerbit WHERE id_penerbit = '$id_penerbit'");
 
     while ($value = mysqli_fetch_array($penerbit)) {
+        $id_penerbit = $value['id_penerbit'];
         $nama_penerbit = $value['nama_penerbit'];
         $email = $value['email'];
         $telp = $value['telp'];
@@ -26,7 +27,13 @@
     <form action="proses_edit.php?id_penerbit=<?php echo $id_penerbit; ?>" method="post">
         <table class="table table-striped">
             <tr>
-                <td colspan="4">EDIT PENERBIT</td>
+                <td colspan="4">
+                    <h4 style="text-align: center;">EDIT PENERBIT</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td><input type="text" name="id_penerbit" value="<?php echo $id_penerbit ?>"></td>
             </tr>
             <tr>
                 <td>Nama Penerbit</td>
