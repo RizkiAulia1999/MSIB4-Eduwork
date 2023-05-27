@@ -63,8 +63,12 @@
 		if ($('#input-id').val().length == 0 || $('#input-nama').val().length == 0 || $('#input-email').val().length == 0 || $('#input-telp').val().length == 0 || $('#input-alamat').val().length == 0 ){
 			$('#input-id, #input-nama , #input-email, #input-telp, #input-alamat').css({"backgroundColor" : "#ff00002b"});
 			$('#text-error-id, #text-error-name, #text-error-email, #text-error-telp, #text-error-alamat').text('Silahkan isi terlebih dahulu');
-		} else {
-			$('#form-penerbit').submit();
-		}
+        } else {
+            $('#input-id, #input-nama , #input-email, #input-telp, #input-alamat').css({"backgroundColor" : "#dddd"});
+            $('#text-error-id, #text-error-name, #text-error-email, #text-error-telp, #text-error-alamat').hide();
+            $('#form-penerbit').submit();
+        }
 	});
+
+   
 </script>
