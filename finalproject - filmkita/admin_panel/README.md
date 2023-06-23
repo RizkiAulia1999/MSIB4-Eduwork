@@ -18,7 +18,8 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 [![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2?type=dev)
 ## User management
-![Screenshot (170)](https://github.com/RizkiAulia1999/MSIB4-Eduwork/assets/55042970/9d9b81c4-7840-45c4-aa2c-af1e7dbb465b)
+![Screenshot (171)](https://github.com/RizkiAulia1999/MSIB4-Eduwork/assets/55042970/6e4a962e-c009-4148-a286-b3ce1795adcc)
+
 
 ## Download and Installation
 
