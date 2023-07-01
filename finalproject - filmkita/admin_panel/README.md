@@ -17,9 +17,6 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 [![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2)
 [![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2?type=dev)
-## User management
-![Screenshot (171)](https://github.com/RizkiAulia1999/MSIB4-Eduwork/assets/55042970/6e4a962e-c009-4148-a286-b3ce1795adcc)
-
 
 ## Download and Installation
 
@@ -66,4 +63,3 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
-

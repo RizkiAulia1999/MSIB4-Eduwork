@@ -27,7 +27,7 @@ $data_director = select("SELECT * FROM director WHERE id_director = '$id_directo
             <div class="card p-4">
                 <div class="grid row">                 
                     <div class="col-md-3">
-                    <img src="./admin_finalproject/<?= $data_director['img'] ?>" alt="" srcset="" width="150px">
+                    <img src="./admin_panel/<?= $data_director['img'] ?>" alt="" srcset="" width="150px">
                     </div>
                     <div class="col-md-6 p-4">
                         <div class="row">
@@ -44,7 +44,7 @@ $data_director = select("SELECT * FROM director WHERE id_director = '$id_directo
                                 <span class="font-weight-bold text-dark">Occupation</span>
                             </div>
                             <div class="col-md-4">
-                            <?= $data_director['Occupation'] ?>
+                            <?= $data_director['occupation'] ?>
                             </div>
                         </div>
                         <hr>
@@ -53,7 +53,7 @@ $data_director = select("SELECT * FROM director WHERE id_director = '$id_directo
                                 <span class="font-weight-bold text-dark">Country</span>
                             </div>
                             <div class="col-md-4">
-                            <?= $data_director['Country'] ?>
+                            <?= $data_director['country'] ?>
                             </div>
                         </div>
                     </div>

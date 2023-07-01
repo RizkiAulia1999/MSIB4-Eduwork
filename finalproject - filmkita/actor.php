@@ -27,7 +27,7 @@ $data_actor = select("SELECT * FROM actor WHERE id_actor = '$id_actor'")[0];
             <div class="card p-4">
                 <div class="grid row">
                     <div class="col-md-3">
-                        <img src="./admin_finalproject/<?= $data_actor['img'] ?>" alt="" srcset="" width="150px">
+                        <img src="./admin_panel/<?= $data_actor['img'] ?>" alt="" srcset="" width="150px">
                     </div>
                     <div class="col-md-6 p-4">
                         <div class="row">
@@ -44,7 +44,7 @@ $data_actor = select("SELECT * FROM actor WHERE id_actor = '$id_actor'")[0];
                                 <span class="font-weight-bold text-dark">Occupation</span>
                             </div>
                             <div class="col-md-4">
-                                <?= $data_actor['Occupation'] ?>
+                                <?= $data_actor['occupation'] ?>
                             </div>
                         </div>
                         <hr>
@@ -53,7 +53,7 @@ $data_actor = select("SELECT * FROM actor WHERE id_actor = '$id_actor'")[0];
                                 <span class="font-weight-bold text-dark">Country</span>
                             </div>
                             <div class="col-md-4">
-                                <?= $data_actor['Country'] ?>
+                                <?= $data_actor['country'] ?>
                             </div>
                         </div>
                     </div>
