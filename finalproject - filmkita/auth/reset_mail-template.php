@@ -256,7 +256,7 @@
 
                               <div class="v-font-size" style="font-size: 14px; color: #1386e5; line-height: 140%; text-align: left; word-wrap: break-word;">
                                 <p style="line-height: 140%;"><span style="text-decoration: underline; line-height: 19.6px;"><span style="line-height: 19.6px;"><strong>
-                                        <a href="http://localhost/final_project_msib4/auth/reset-password.php?uid=<?= md5($data['id_user']) ?>">http://localhost/final_project_msib4/auth/reset-password.php?uid=<?= md5($data['id_user']) ?></a>
+                                        <a href="http://localhost/KampusMerdeka/MSIB4-Eduwork/finalproject - filmkita/auth/reset-password.php?uid=<?= md5($data['id_user']) ?>">http://localhost/KampusMerdeka/MSIB4-Eduwork/finalproject - filmkita/auth/reset-password.php?uid=<?= md5($data['id_user']) ?></a>
                                       </strong></span></span></p>
                               </div>
 
@@ -285,7 +285,7 @@
                               <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                               <div align="center">
                                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.unlayer.com" style="height:37px; v-text-anchor:middle; width:220px;" arcsize="67.5%"  stroke="f" fillcolor="#fdb441"><w:anchorlock/><center style="color:#000000;font-family:'Raleway',sans-serif;"><![endif]-->
-                                <a href="http://localhost/final_project_msib4/auth/reset-password.php?uid=<?= md5($data['id_user']) ?>" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box;display: inline-block;font-family:'Raleway',sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #000000; background-color: #fdb441; border-radius: 25px;-webkit-border-radius: 25px; -moz-border-radius: 25px; width:38%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
+                                <a href="http://localhost/KampusMerdeka/MSIB4-Eduwork/finalproject - filmkita/auth/reset-password.php?uid=<?= md5($data['id_user']) ?>" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box;display: inline-block;font-family:'Raleway',sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #000000; background-color: #fdb441; border-radius: 25px;-webkit-border-radius: 25px; -moz-border-radius: 25px; width:38%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
                                   <span style="display:block;padding:10px 20px;line-height:120%;"><span style="line-height: 16.8px;">Reset Your Password</span></span>
                                 </a>
                                 <!--[if mso]></center></v:roundrect><![endif]-->

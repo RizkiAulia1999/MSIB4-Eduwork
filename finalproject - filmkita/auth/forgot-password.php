@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <?php include_once('header.php') ?>
 
-<div class="card col-xl-8 col-lg-7 col-md-10 justify-content-center mx-auto">
+<div class="card col-xl-8 col-lg-7 col-md-10 justify-content-center mx-auto" style="margin-top: 150px;">
     <div class="card-header">
         <div class="d-flex justify-content-between">
             <div class="d-inline">

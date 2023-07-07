@@ -65,8 +65,8 @@ if (isset($_POST['login'])) {
 
 <body class="body" style="background-image: url(images/image1.png);">
 
-    <section class="section-text-white position-relative">
-        <div class="py-5 my-5 container position-relative">
+    <section class="section-text-white position-relative" style="margin: 150px;">
+        <div class="py-5 my-5 container position-relative" >
             <div class="container-fluid">
 
                 <div class="card col-xl-8 col-lg-7 col-md-10 justify-content-center mx-auto">

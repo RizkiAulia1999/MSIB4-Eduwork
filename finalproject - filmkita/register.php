@@ -93,7 +93,7 @@ function is_user_exists($username, $email)
 
 <body class="body" style="background-image: url(images/image1.png);">
 
-    <section class="section-text-white position-relative">
+    <section class="section-text-white position-relative" style="margin: 100px;">
         <div class="py-5 my-5 container position-relative">
             <div class="container-fluid">
                 <div class="card col-xl-8 col-lg-7 col-md-10 mx-auto">

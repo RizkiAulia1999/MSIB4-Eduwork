@@ -75,11 +75,11 @@ function changePassword($userId, $newPassword)
     </div>
 </section>
 
-<section class="section-text-white position-relative">
+<section class="bg-white pt-3 pb-3 ">
     <div class="py-5 my-5 container position-relative">
         <div class="container-fluid">
 
-            <div class="card col-xl-8 col-lg-7 col-md-10 justify-content-center mx-auto">
+            <div class="card col-xl-8 col-lg-7 col-md-10 justify-content-center mx-auto shadow-lg">
                 <div class="card-header">
                     <div class="d-flex justify-content-between">
                         <div class="d-inline">

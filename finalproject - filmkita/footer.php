@@ -82,6 +82,7 @@ $data_genre = select("SELECT * from genre ORDER BY id_genre DESC");
 <script src="js/jquery-3.3.1.js"></script>
 <!-- Bootstrap -->
 <script src="bootstrap/js/bootstrap.js"></script>
+
 <!-- Waypoints -->
 <script src="waypoints/jquery.waypoints.min.js"></script>
 <!-- Slick carousel -->

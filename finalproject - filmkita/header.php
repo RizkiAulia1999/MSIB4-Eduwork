@@ -22,6 +22,7 @@
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,500,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    
     <!-- Theme styles -->
     <link href="css/dot-icons.css" rel="stylesheet" type="text/css">
     <link href="css/theme.css" rel="stylesheet" type="text/css">

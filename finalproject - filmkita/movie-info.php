@@ -131,8 +131,8 @@ if (isset($_POST['submit'])) {
                         <div class="section-head">
                             <h2 class="section-title text-uppercase text-dark ">Synopsis</h2>
                         </div>
-                        <div class="section-description">
-                            <p class="lead text-justify">
+                        <div class="section-description text-justify">
+                            <p class="lead" >
                                 <?= $data_movie['synopsis'] ?>
                             </p>
                         </div>

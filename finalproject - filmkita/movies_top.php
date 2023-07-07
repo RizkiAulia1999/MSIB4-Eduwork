@@ -39,6 +39,7 @@ INNER JOIN tag as t ON c.tag_id = t.id_tag ORDER BY rating DESC;
                                 <div class="embed-responsive embed-responsive-poster">
                                     <img class="embed-responsive-item" src="./admin_panel/<?= $row['img'] ?>" alt="" />
                                 </div>
+                                <div class="d-background bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show"></div>
                                 <div class="d-over bg-highlight-bottom">
                                     <div class="collapse animated faster entity-play" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                                         <a class="action-icon-theme action-icon-bordered rounded-circle" href="<?= $row['Video'] ?>" data-magnific-popup="iframe">

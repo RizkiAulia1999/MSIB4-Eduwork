@@ -5,7 +5,7 @@ $id_user = (int)$_GET['id'];
 
 $data_user = select("SELECT * FROM user WHERE id_user = '$id_user'")[0];
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['save'])) {
     if (edit_user($_POST) > 0) {
         echo "
 <script>
@@ -31,17 +31,17 @@ window.location.href = 'index.php?page=home';
             <div class="page-breadcrumbs">
                 <a class="content-link" href="index.php?page=home">Home</a>
                 <span class="text-theme mx-2"><i class="fas fa-chevron-right"></i></span>
-                <a class="content-link" href="index.php?page=edit_profile">Profile</a>
+                <a class="content-link" href="index.php?page=edit_profile&id=' . $id_user . '">Profile</a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="bg-white">
+<section class="bg-white  pt-3 pb-3 ">
     <div class="container mt-5 mb-5">
         <div class="row gutters">
             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                <div class="card h-100 mt-5">
+                <div class="card h-100 mt-5 shadow-lg">
                     <div class="card-body ">
                         <div class="account-settings">
                             <div class="user-profile">
@@ -54,9 +54,9 @@ window.location.href = 'index.php?page=home';
                 </div>
             </div>
             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-                <div class="card h-100 mt-5">
+                <div class="card h-100 mt-5 shadow-lg">
                     <div class="card-body">
-                        <form action="" method="post">
+                    <form  action="" method="POST" enctype="multipart/form-data">
                             <input class="form-control" id="id_user" type="hidden" name="id_user" value="<?= $id_user ?>">
                             <input class="form-control" id="password" type="hidden" name="password" value="<?= $data_user['password'] ?>">
                             <input class="form-control" id="user_role" type="hidden" name="user_role" value="<?= $data_user['user_role'] ?>">
@@ -86,7 +86,7 @@ window.location.href = 'index.php?page=home';
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="text-right">
-                                        <button type="submit" id="submit" name="submit" class="btn-theme btn mt-3">Update</button>
+                                        <button id="submitButton" name="save" type="submit" class="btn-theme btn mt-3">Update</button>
                                         <a href="index.php" class="btn btn-secondary mt-3">Cancel</a>
                                     </div>
                                 </div>
